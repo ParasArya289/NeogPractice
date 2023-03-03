@@ -1,6 +1,6 @@
 // Write an ES6 function that takes an array of objects containing book information (title, author, genre) and returns an array with only the books of "Science Fiction".
 
-const filterByGenre = (arr) => arr.filter(({genre})=>genre === 'Science Fiction')
+const filterByGenre = (arr,query) => arr.filter(({genre})=>genre === query)
 
 const books = [
   {title: "The Hitchhiker's Guide to the Galaxy", author: "Douglas Adams", genre: "Science Fiction"},
