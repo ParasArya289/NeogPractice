@@ -1,7 +1,14 @@
-// Write an ES6 function that takes an array of numbers and returns an array with each number incremented by 3 using the map method.
+// Given an array of objects representing people, write an ES6 function to return a new array containing only the names of the people.
 
-const incrementNumbers = (arr) => arr.map(el=>el+3)
-
-const numbers = [1, 2, 3, 4, 5];
-console.log(incrementNumbers(numbers));
-// Output: [4, 5, 6, 7, 8]
+const people = [
+    { name: 'Raj', age: 28 },
+    { name: 'Swapnil', age: 42 },
+    { name: 'Anushka', age: 35 }
+  ];
+  
+  // Your code here
+  const onlyNames = (arr) => arr.map(({name})=>name)
+  
+  const names = onlyNames(people)
+  
+  console.log(names); // Output: ['Raj', 'Swapnil', 'Anushka']
