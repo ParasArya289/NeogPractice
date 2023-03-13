@@ -32,7 +32,7 @@ const products = [
         <h1>Products Inventory</h1>
         <ul>
           {products.map((el) => (
-            <li>
+            <li key={el.id}>
               <h4>{el.name}</h4>
               <span>
                 Rs.{el.price},{el.category}
