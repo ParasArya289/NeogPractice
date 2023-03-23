@@ -39,7 +39,7 @@ const Q2 = () => {
     } catch (e) {
       setLoading(false);
       setError(e.message);
-      setData([]);
+      setData("");
     }
   };
 
