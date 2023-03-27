@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  max-width: 250px;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #f8fafc;
+}
