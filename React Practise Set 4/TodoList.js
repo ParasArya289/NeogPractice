@@ -36,15 +36,32 @@ const TodoList = ({ list }) => {
         Undo Previous Action
       </button>
       {data.map((el) => (
-        <div key={el.id} style={{display:'flex',justifyContent:'space-between',alignItems:'center',border:'2px dotted grey',margin:'20px',borderRadius:'6px'}}>
-          <p style={{display:'inline-block',padding:'20px', textDecoration: !el.isDone ? "line-through" : "" }}>
+        <div
+          key={el.id}
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            border: "2px dotted grey",
+            margin: "20px",
+            borderRadius: "6px"
+          }}
+        >
+          <p
+            style={{
+              display: "inline-block",
+              padding: "20px",
+              textDecoration: !el.isDone ? "line-through" : "",
+              color: !el.isDone ? "green" : "red"
+            }}
+          >
             {el.task}
           </p>
-          <div style={{padding:'20px'}}>
-          <button onClick={() => removeItem(el.id)}>🗑</button>
-          <button onClick={() => done(el.id)}>
-            {!el.isDone ? "✅" : "❌"}
-          </button>
+          <div style={{ padding: "20px" }}>
+            <button onClick={() => removeItem(el.id)}>🗑</button>
+            <button onClick={() => done(el.id)}>
+              {!el.isDone ? "✅" : "❌"}
+            </button>
           </div>
         </div>
       ))}
