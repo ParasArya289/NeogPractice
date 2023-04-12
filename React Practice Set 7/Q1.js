@@ -33,8 +33,8 @@ const Q1 = () => {
     <div>
       <h1>Wheather</h1>
       <p>Temperature: {changedTemperature}</p>
-      <p>Humidity: {data.humidity}</p>
-      <p>Wind Speed: {data.windSpeed}</p>
+      <p>Humidity: {data.humidity}%</p>
+      <p>Wind Speed: {data.windSpeed}Km/h</p>
       <button disabled={loading} onClick={() => ChangeHandler()}>
         {toggler ? "Change to Fahrenheit" : "Change to Celcius"}
       </button>
