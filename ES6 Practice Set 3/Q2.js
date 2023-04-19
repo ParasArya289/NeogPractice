@@ -11,3 +11,4 @@ const product = {
 
 const message = formatProduct(product);
 console.log(message);
+// Socks costs INR 249 and is in stock.
