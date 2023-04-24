@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+  }
+  .heading {
+    font-size: 36px;
+    color: #333333;
+    margin: "20px";
+  }
+  .paragraph {
+    font-size: 18px;
+    color: "#666666";
+    line-height: 1.5;
+  }
+  
