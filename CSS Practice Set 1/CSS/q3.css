@@ -1,0 +1,20 @@
+/* Create a HTML page with a list of 5 items. HTML template has been provided below. Add your CSS to it as follows:
+
+Style the list items to have a font size of 18px, a font color of #333333, font weight of 800 and a padding of 15px.
+Add a ‘dashed’ outline style of red color around each list item and a border radius of 5px.
+The item names should be at the centre of the outline horizontally and vertically.
+Add a margin of 5px below each list item. */
+
+.list {
+    font-size: 18x;
+    color: #333333;
+    font-weight: 600;
+  }
+  li {
+    text-align: center;
+    padding: 10px;
+    border: 2px dotted red;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
