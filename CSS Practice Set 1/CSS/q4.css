@@ -1,0 +1,19 @@
+/* // Create a HTML page with two elements that include an input field and a submit button. Add CSS to style the elements as follows:
+
+// Style the input field to have a border of 1px solid #cccccc, a padding of 10px, and a font size of 18px.
+// Add a placeholder text of "Enter your email address" to the input field.
+// Style the submit button to have a background color of #333333, a font color of #ffffff, a font size of 18px and a padding of 10px 20px.
+// Add a margin of 10px between the input field and the submit button. */
+.search-bar {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  .btn {
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  
