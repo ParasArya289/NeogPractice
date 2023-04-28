@@ -1,0 +1,36 @@
+/* Create an HTML page with a card that includes an image https://via.placeholder.com/350x150, a title, and a description. Add CSS to style the card as follows:
+
+Set a box-shadow of 0 4px 8px 0 rgba(0, 0, 0, 0.2) and a border radius of 5px.
+Set a background color of #ffffff to the card.
+Add a margin of 20px between the card and the surrounding content.
+Style the title to have a font size of 24px, a font color of #333333, and a margin of 10px.
+Style the description to have a font size of 18px, a font color of #666666, and a margin of 10px. */
+
+.card-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 350px;
+    height: 300px;
+  }
+  .card-image {
+    border-radius: 6px 6px 0 0;
+  }
+  .card-heading {
+    color: #333333;
+    font-size: 24px;
+    margin: 10px;
+  }
+  .card-description {
+    color: #666666;
+    margin: 10px;
+  }
+  .card-btn {
+    margin: 10px;
+    padding: 10px;
+    border: "2px solid transparent";
+    background-color: #333333;
+    color: white;
+    border-radius: 6px;
+  }
+  
